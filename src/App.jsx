@@ -30,7 +30,7 @@ function Header() {
 // Hero Section Component
 function HeroSection() {
   return (
-    <section className="bg-blue-500 text-white py-20 text-center" style={{ backgroundImage: "url('./src/assets/therapist-writing-notes.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}>
+    <section className="bg-blue-500 text-white py-20 text-center" style={{ backgroundImage: "url('../lighthouse-counseling/src/assets/therapist-writing-notes.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}>
       <h1 className="text-5xl font-bold mb-4">Counseling Care</h1>
       <p className="text-xl mb-6">Talk with a professional</p>
       <Button className="bg-white text-blue-600 hover:bg-gray-200">Book an Appointment</Button>
@@ -60,7 +60,7 @@ function App() {
       <Header />
       <main className="min-h-screen bg-gray-100 font-sans">
         <Routes>
-          <Route path="/" element={
+          <Route path="/lighthouse-counseling" element={
             <>
               <HeroSection />
               <BioSection />

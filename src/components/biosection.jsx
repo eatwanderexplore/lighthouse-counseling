@@ -6,7 +6,7 @@ function BioSection() {
       {/* Profile Image */}
       <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden shadow-lg">
         <img 
-          src="./src/assets/Paul-Negrulescu-2019.jpg" 
+          src="../lighthouse-counseling/src/assets/Paul-Negrulescu-2019.jpg" 
           alt="Therapist"
           className="w-full h-full object-cover"
         />
